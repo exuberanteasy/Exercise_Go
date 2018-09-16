@@ -31,3 +31,11 @@ static void Main(string[] args)
     Console.WriteLine("  4.金額:{0}", price * qty);
     Console.Read();
 }
+
+//Escape sequence
+static void Main(string[] args)
+{
+    Console.WriteLine("\"大理世子\"");
+    Console.WriteLine("Tom\'s Toys");
+    Console.WriteLine("Why 1\\2");
+}
